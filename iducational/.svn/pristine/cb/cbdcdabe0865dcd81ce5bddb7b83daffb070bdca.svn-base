@@ -1,0 +1,47 @@
+<?php
+/* @var $this StatusController */
+/* @var $data TStatus */
+?>
+
+<div class="view">
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_id')); ?>:</b>
+	<?php echo CHtml::link(CHtml::encode($data->status_id), array('view', 'id'=>$data->status_id)); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('user_id')); ?>:</b>
+	<?php echo CHtml::encode($data->user_id); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_text')); ?>:</b>
+	<?php echo CHtml::encode($data->status_text); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_pict')); ?>:</b>
+	<?php echo CHtml::encode($data->status_pict); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_file')); ?>:</b>
+	<?php echo CHtml::encode($data->status_file); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_like')); ?>:</b>
+	<?php echo CHtml::encode($data->status_like); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_comment')); ?>:</b>
+	<?php echo CHtml::encode($data->status_comment); ?>
+	<br />
+
+	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_created_date')); ?>:</b>
+	<?php echo CHtml::encode($data->status_created_date); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('status_modified_date')); ?>:</b>
+	<?php echo CHtml::encode($data->status_modified_date); ?>
+	<br />
+
+	*/ ?>
+
+</div>
