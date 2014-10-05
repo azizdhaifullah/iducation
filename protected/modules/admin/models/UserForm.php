@@ -80,7 +80,6 @@ class UserForm extends CFormModel
 				$date = date("Y-m-d H:i:s");
 				$data->updateByPk($_GET['i'],array(
 	                'username'=>$this->username,
-	                'password'=>$this->password,
 	                'fullname'=> $this->fullname,
 	                'email'=>$this->email,
 	                'user_date'=>$this->user_date,
@@ -90,7 +89,6 @@ class UserForm extends CFormModel
 			}else{
 				$data->updateByPk($_GET['i'],array(
 	                'username'=>$this->username,
-	                'password'=>$this->password,
 	                'fullname'=> $this->fullname,
 	                'user_date'=>$this->user_date,
 	                'gender'=>$this->gender,

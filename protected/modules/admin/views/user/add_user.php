@@ -42,13 +42,6 @@
         </div>
       </div>
       <div class="form-group">
-        <?= $form->labelEx($model,'password',array('class'=>'col-sm-2 control-label','for'=>'DataManagementForm_tempat_lahir')); ?>
-        <div class="col-sm-10">
-            <?php echo $form->passwordField($model,'password',array('class'=>'form-control','placeholder'=>'Password','required'=>'required','maxlength'=>50)); ?>
-            <?php echo $form->error($model,'password'); ?>
-        </div>
-      </div>
-      <div class="form-group">
         <?= $form->labelEx($model,'fullname',array('class'=>'col-sm-2 control-label','for'=>'DataManagementForm_tempat_lahir')); ?>
         <div class="col-sm-10">
             <?php echo $form->textField($model,'fullname',array('class'=>'form-control','placeholder'=>'Fullname','required'=>'required','maxlength'=>50)); ?>
