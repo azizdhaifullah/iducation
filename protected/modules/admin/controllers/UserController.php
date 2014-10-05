@@ -128,11 +128,7 @@ class UserController extends Controller
 		$model=new UserForm;
 		if(isset($_POST['UserForm'])){
 			$model->attributes=$_POST['UserForm'];
-			if($model->validate()){
-				$model->save();
-			}else{
-				return false;
-			}
+			$model->save();
 		}
 		$model->edit($_GET['i']);
 		$this->render('add_user',array('model'=>$model));
