@@ -123,7 +123,7 @@ class UserController extends Controller
 
 	}
 
-	public function actionEditUser(){
+	public function actionEdit(){
 		$this->layout="admin";
 		$model=new UserForm;
 		if(isset($_POST['UserForm'])){

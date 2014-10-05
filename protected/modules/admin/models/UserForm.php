@@ -53,7 +53,7 @@ class UserForm extends CFormModel
 	}
 
 	public function save(){
-		$data = new TUSer;
+		$data = TUSer::model()->find(array('condition'=>'user_id=:userid','params'=>array(':userid'=>$_GET['i'])));
 		$d = strtotime($this->user_date);
 		$date = date("Y-m-d", $d);
 		$this->user_created_date = date("Y-m-d H:i:s"); 
@@ -76,15 +76,27 @@ class UserForm extends CFormModel
 			$data->user_modified_date = $this->user_modified_date;
 			$data->save();
 		}else{
-			$data->updateByPk($_GET['i'],array(
-                'username'=>$this->username,
-                'password'=>$this->pasword,
-                'fullname'=> $this->pasword,
-                'email'=>$this->email,
-                'user_date'=>$this->user_date,
-                'gender'=>$this->gender,
-                'user_modified_by'=> $this->username,
-                'user_modified_date'=> date("Y-m-d H:i:s")));
+			if($data->email != $this->email){
+				$date = date("Y-m-d H:i:s");
+				$data->updateByPk($_GET['i'],array(
+	                'username'=>$this->username,
+	                'password'=>$this->password,
+	                'fullname'=> $this->fullname,
+	                'email'=>$this->email,
+	                'user_date'=>$this->user_date,
+	                'gender'=>$this->gender,
+	                'user_modified_by'=> $this->username,
+	                'user_modified_date'=> $date));
+			}else{
+				$data->updateByPk($_GET['i'],array(
+	                'username'=>$this->username,
+	                'password'=>$this->password,
+	                'fullname'=> $this->fullname,
+	                'user_date'=>$this->user_date,
+	                'gender'=>$this->gender,
+	                'user_modified_by'=> $this->username,
+	                'user_modified_date'=> $date));
+			}
 		}
 	}
 
@@ -94,7 +106,6 @@ class UserForm extends CFormModel
 		$criteria->addSearchCondition('user_id',$i,true,'=');
 		$data=TUSer::model()->find($criteria);
 		$this->username = $data->username;
-		$this->password = $data->password;
 		$this->fullname = $data->fullname;
 		$this->email = $data->email;
 		$this->user_date = $data->user_date;

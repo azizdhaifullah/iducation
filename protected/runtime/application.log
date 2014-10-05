@@ -4959,3 +4959,530 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/iducational/img/favicon.ico
 ---
+2014/10/05 11:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/10/05 11:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in C:\xampp\htdocs\yii1.1.15\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(270): CController->missingAction('edit')
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/User.html
+---
+2014/10/05 11:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 11:45:16 [error] [exception.CException] exception 'CException' with message 'Property "UserForm.pasword" is not defined.' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(81): CComponent->__get('pasword')
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(132): UserForm->save()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#8 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 11:45:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (87)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (132)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/05 11:45:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(87): CActiveRecord->updateByPk('1', Array)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(132): UserForm->save()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 11:51:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (88)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (132)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/05 11:51:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(88): CActiveRecord->updateByPk('1', Array)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(132): UserForm->save()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 11:51:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (88)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (132)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/05 11:51:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(88): CActiveRecord->updateByPk('1', Array)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(132): UserForm->save()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 11:53:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (89)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (132)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/05 11:53:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(89): CActiveRecord->updateByPk('1', Array)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(132): UserForm->save()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:03:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (89)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (132)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/05 12:03:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aziz.dhaifullah@gmail.com' for key 'email'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `password`=:yp1, `fullname`=:yp2, `email`=:yp3, `user_date`=:yp4, `gender`=:yp5, `user_modified_by`=:yp6, `user_modified_date`=:yp7 WHERE `user`.`user_id`=1' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(89): CActiveRecord->updateByPk('1', Array)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(132): UserForm->save()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:03:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:03:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:03:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:05:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:06:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:09:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:09:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:09:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:09:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/User.html
+---
+2014/10/05 12:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/2.html
+---
+2014/10/05 12:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---
+2014/10/05 12:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/fonts/glyphicons-halflings-regular.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
+---

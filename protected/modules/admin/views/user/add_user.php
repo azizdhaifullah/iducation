@@ -17,7 +17,7 @@
     <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'add-user-form',
-        'enableAjaxValidation' => false,
+        'enableAjaxValidation' => true,
         'htmlOptions' => array('class'=>'form-horizontal',
                                 'role'=>'form'
                             ),
