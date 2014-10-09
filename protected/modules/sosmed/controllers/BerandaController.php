@@ -4,18 +4,7 @@ class BerandaController extends Controller
 {
 	public function actionIndex()
 	{
-		/*$password = '12345';
-		$p = md5($password);
-		$p2 = substr($p,0,5);
-		$p3 = substr($p,5,-1);
-		$p4 = substr($p,-1);
-		$unix = md5(substr($p,-4));
-		$uCod = substr($unix,0,4);
-		$tp = $p2.$uCod.$p3.$p4;
-		echo $tp."<br>";
-		echo strlen($tp);
-		exit;*/
-		$this->layout = '';
+		$this->layout = 'main';
 		$this->render('index');
 	}
 

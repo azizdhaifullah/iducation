@@ -5781,11 +5781,26 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   height: 100%;
   background-color: #000000;
   opacity:0.6;
+  transition:opacity 0.5s;
+}
+
+.transparent:hover {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity:0.8;
 }
 
 .transparent img {
-  margin-top: 60px;
+  margin-top: 32px;
   border-radius: 10px 0px 10px 0px;
+}
+
+.transparent p {
+  font-family: inherit;
+  margin-top: 10px;
+  font-size: 22px;
+  color: beige;
 }
 
 .bodylogin {

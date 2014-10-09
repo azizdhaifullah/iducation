@@ -18,13 +18,13 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{
 		$users = TUser::model()->find(array('condition'=>'Username=:username','params'=>array(':username'=>$this->username)));
-		/*$p = md5($this->password);
+		$p = md5($this->password);
 		$p2 = substr($p,0,5);
 		$p3 = substr($p,5,-1);
 		$p4 = substr($p,-1);
 		$unix = md5(substr($p,-4));
 		$uCod = substr($unix,0,4);
-		$this->password = $p2.$uCod.$p3.$uCod.$p4;*/
+		$this->password = $p2.$uCod.$p3.$uCod.$p4;
 		if($users===null)
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
 		elseif($users->password!==$this->password)

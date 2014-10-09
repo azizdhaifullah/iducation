@@ -17,7 +17,7 @@
     <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'add-user-form',
-        'enableAjaxValidation' => true,
+        'enableClientValidation'=>true,
         'htmlOptions' => array('class'=>'form-horizontal',
                                 'role'=>'form'
                             ),
@@ -37,10 +37,19 @@
       <div class="form-group">
         <?= $form->labelEx($model,'username',array('class'=>'col-sm-2 control-label','for'=>'DataManagementForm_nama')); ?>
         <div class="col-sm-10">
-            <?php echo $form->textField($model,'username',array('class'=>'form-control','placeholder'=>'Username','required'=>'required','maxlength'=>20)); ?>
+            <?php echo $form->textField($model,'username',array('class'=>'form-control','placeholder'=>'Username','required'=>'required','maxlength'=>20)); ?><p class="cekUserAvailable"></p>
             <?php echo $form->error($model,'username'); ?>
         </div>
       </div>
+      <?php if($model->saveType=='add'): ?>
+        <div class="form-group">
+            <?= $form->labelEx($model,'password',array('class'=>'col-sm-2 control-label','for'=>'DataManagementForm_nama')); ?>
+            <div class="col-sm-10">
+                <?php echo $form->passwordField($model,'password',array('class'=>'form-control','placeholder'=>'Password','required'=>'required','maxlength'=>20)); ?>
+                <?php echo $form->error($model,'password'); ?>
+            </div>
+          </div>
+      <?php endif; ?>
       <div class="form-group">
         <?= $form->labelEx($model,'fullname',array('class'=>'col-sm-2 control-label','for'=>'DataManagementForm_tempat_lahir')); ?>
         <div class="col-sm-10">
@@ -92,5 +101,12 @@
             language: 'en',
             pickTime: false
         });
+    });
+
+    $(document).ready(function () {
+       $("#UserForm_username").focusout(function(){
+        $('.cekUserAvailable').html(' <img src="<?=Yii::app()->theme->baseUrl?>/ico/ajax_loading.gif"/>');
+        // $('.cekUserAvailable').html('Mencari...');
+       });
     });
 </script>

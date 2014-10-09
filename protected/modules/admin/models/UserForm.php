@@ -53,7 +53,6 @@ class UserForm extends CFormModel
 	}
 
 	public function save(){
-		$data = TUSer::model()->find(array('condition'=>'user_id=:userid','params'=>array(':userid'=>$_GET['i'])));
 		$d = strtotime($this->user_date);
 		$date = date("Y-m-d", $d);
 		$this->user_created_date = date("Y-m-d H:i:s"); 
@@ -65,6 +64,7 @@ class UserForm extends CFormModel
 		$uCod = substr($unix,0,4);
 		$this->password = $p2.$uCod.$p3.$uCod.$p4;
 		if($this->saveType=='add'){
+			$data = new TUser;gh
 			$data->username = $this->username;
 			$data->password = $this->password;
 			$data->fullname = $this->fullname;
@@ -76,6 +76,7 @@ class UserForm extends CFormModel
 			$data->user_modified_date = $this->user_modified_date;
 			$data->save();
 		}else{
+			$data = TUSer::model()->find(array('condition'=>'user_id=:userid','params'=>array(':userid'=>$_GET['i'])));
 			if($data->email != $this->email){
 				$date = date("Y-m-d H:i:s");
 				$data->updateByPk($_GET['i'],array(

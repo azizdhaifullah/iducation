@@ -5723,3 +5723,842 @@ Stack trace:
 REQUEST_URI=/iducation3/themes/iducational/fonts/glyphicons-halflings-regular.svg
 HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/css/bootstrap.min.css
 ---
+2014/10/05 12:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/2.html
+---
+2014/10/05 12:49:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/2.html
+---
+2014/10/05 12:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/2.html
+---
+2014/10/05 12:53:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Dashboard.html
+---
+2014/10/05 12:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/User.html
+---
+2014/10/05 12:53:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:53:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:53:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'username'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `fullname`=:yp1, `user_date`=:yp2, `gender`=:yp3, `user_modified_by`=:yp4, `user_modified_date`=:yp5 WHERE `user`.`user_id`=1.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (96)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (131)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/05 12:53:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'username'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `fullname`=:yp1, `user_date`=:yp2, `gender`=:yp3, `user_modified_by`=:yp4, `user_modified_date`=:yp5 WHERE `user`.`user_id`=1' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(96): CActiveRecord->updateByPk('1', Array)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(131): UserForm->save()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 12:54:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'username'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `fullname`=:yp1, `user_date`=:yp2, `gender`=:yp3, `user_modified_by`=:yp4, `user_modified_date`=:yp5 WHERE `user`.`user_id`=1.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (96)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (131)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/05 12:54:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'username'. The SQL statement executed was: UPDATE `user` SET `username`=:yp0, `fullname`=:yp1, `user_date`=:yp2, `gender`=:yp3, `user_modified_by`=:yp4, `user_modified_date`=:yp5 WHERE `user`.`user_id`=1' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(96): CActiveRecord->updateByPk('1', Array)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(131): UserForm->save()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionEdit()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/edit...')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/user/edit/i/1.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 13:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 13:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 13:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 13:27:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 13:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 13:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 15:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/05 15:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/jquery.min.map".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/js/jquery.min.map
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/edit/i/1.html
+---
+2014/10/07 03:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/10/07 03:28:20 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "password".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(48): CComponent->__call('password', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(48): CActiveForm->password(Object(UserForm), 'password', Array)
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(122): CController->render('add_user', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionAddUser()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('addUser')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/addU...')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/admin/user/addUser.html
+---
+2014/10/07 03:30:03 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "password".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(48): CComponent->__call('password', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(48): CActiveForm->password(Object(UserForm), 'password', Array)
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(122): CController->render('add_user', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionAddUser()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('addUser')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/addU...')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/admin/user/addUser.html
+---
+2014/10/07 03:30:50 [error] [php] Undefined index: i (C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php:56)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): UserController->runAction()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): UserController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): UserController->run()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/admin/user/addUser.html
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (56)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (114)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/07 03:43:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sa' for key 'username'. The SQL statement executed was: INSERT INTO `user` (`username`, `password`, `fullname`, `email`, `user_date`, `gender`, `user_created_date`, `user_modified_by`, `user_modified_date`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php (77)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php (114)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/10/07 03:43:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sa' for key 'username'. The SQL statement executed was: INSERT INTO `user` (`username`, `password`, `fullname`, `email`, `user_date`, `gender`, `user_created_date`, `user_modified_by`, `user_modified_date`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\models\UserForm.php(77): CActiveRecord->save()
+#3 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(114): UserForm->save()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionAddUser()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('addUser')
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/addU...')
+#10 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iducation3/admin/user/addUser.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/user/addUser.html
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/docs/assets/css/demo.css".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/docs/assets/css/demo.css
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jcarousel.responsive.css".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jcaro...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jcarousel.responsive.css
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jquery.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jquer...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jquery.js
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jquery.jcarousel.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jquer...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jquery.jcarousel.min.js
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-2.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-2.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-6.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-6.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/favi...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/favicon.ico
+---
+2014/10/07 03:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jcarousel.responsive.css".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jcaro...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jcarousel.responsive.css
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 03:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/docs/assets/css/demo.css".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/docs/assets/css/demo.css
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jcarousel.responsive.css".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jcaro...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jcarousel.responsive.css
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jquery.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jquer...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jquery.js
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jquery.jcarousel.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jquer...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jquery.jcarousel.min.js
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-2.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-2.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-6.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-6.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 04:59:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/js/jcarousel.responsive.css".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/js/jcaro...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/js/jcarousel.responsive.css
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-2.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-2.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-6.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-6.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+---
+2014/10/07 05:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+---
+2014/10/07 05:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+---
+2014/10/07 05:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+---
+2014/10/07 05:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+---
+2014/10/07 05:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+---
+2014/10/07 05:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+---
+2014/10/07 05:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+---
+2014/10/07 05:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+---
+2014/10/07 05:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-1.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-1.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-2.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-2.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-5.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-5.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-6.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-6.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-3.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-3.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/docs/assets/img/demo/browser-pic-4.jpg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/docs/ass...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/docs/assets/img/demo/browser-pic-4.jpg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+---
+2014/10/07 05:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+---
+2014/10/07 05:05:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/icons/svg/book.svg".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/icon...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/icons/svg/book.svg
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 06:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/home".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/home')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/home
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda
+---
+2014/10/07 06:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/home".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/home')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/home
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda?
+---
+2014/10/07 06:38:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/home".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/home')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/home
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda?
+---
+2014/10/09 05:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---

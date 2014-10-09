@@ -1,53 +1,75 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Flat UI - Free Bootstrap Framework and Theme</title>
-    <meta name="description" content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."/>
+<div class="row" >
+  
+    <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
 
-    <meta name="viewport" content=" initial-scale=1.0, maximum-scale=1.0">
+      <div class="navbar-header" style="">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01" >
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+       <a class="navbar-brand" href="#">&nbsp</a>
 
-    <!-- Loading Bootstrap -->
-    <link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
-    <link href="dist/css/flat-ui.css" rel="stylesheet">
-    <link href="docs/assets/css/demo.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="img/favicon.ico">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="dist/js/vendor/html5shiv.js"></script>
-      <script src="dist/js/vendor/respond.min.js"></script>
-    <![endif]-->
-  </head>
- <body>
-<div class="bodylogin"> 
-<div class="login">
-        <div class="login-screen">
-          <div class="login-icon">
-            <img src="img/login/icon.png" alt="Welcome to Mail App" />
-            <h4>test <small>Mail App</small></h4>
-          </div>
-
-          <div class="login-form">
-            <div class="form-group">
-              <input type="text" class="form-control login-field" value="" placeholder="Enter your name" id="login-name"  />
-              <label class="login-field-icon fui-user" for="login-name"></label>
-            </div>
-
-            <div class="form-group">
-              <input type="password" class="form-control login-field" value="" placeholder="Password" id="login-pass" />
-              <label class="login-field-icon fui-lock" for="login-pass"></label>
-            </div>
-
-            <a class="btn btn-primary btn-lg btn-block" href="#">Log in</a>
-            <a class="login-link" href="#">Lost your password?</a>
-          </div>
-        </div>
       </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-01"  style="background-color:#27AE60;">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#fakelink"><span class="fui-user"></span></a></li>
+          <li><a href="#fakelink"><span class="fui-home"></span></a></li>
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fui-document"></span></a></li>
+          <li><a href="#fakelink"><div><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/img/icons/svg/book.svg" alt="Book" style="width:25px;"></div></a></li>
+
+          <li><form class="navbar-form navbar-right" action="#" role="search">
+          <div class="form-group">
+            <div class="input-group">
+              <input class="fouuawrm-control" id="navbarInput-01" type="search" placeholder="Search" style="width:500px;background-color:#ECF0F1;" >
+              <span class="input-group-btn">
+                <button type="submit" class="btn" style="background-color:#ECF0F1;" ><span class="fui-search"></span></button>
+              </span>
+            </div>
+          </div>
+        </form></li>
+         </ul>
+
+         
+      </div><!-- /.navbar-collapse -->
+    </nav><!-- /navbar -->
+  
+</div> <!-- /row -->
+<div class="container" >
+   <h3>Most Popular Forums</h3>
+    <div class="col-xs-12 col-md-12 col-lg-12" style="margin-left:50px;">
+      <div class="popular-forum-backbackground">
+        <center>
+          <div class="transparent" align="center">
+            <img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-5.jpg" height="50%">
+            <p>Test</p>
+          </div>
+        </center>
       </div>
-
-
+      <div class="popular-forum-backbackground">
+        <center>
+          <div class="transparent" align="center">
+            <img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-5.jpg" height="50%">
+            <p>Test</p>
+          </div>
+        </center>
+      </div>
+    </div>
+  &nbsp;
+  <div class="jcarousel-wrapper">
+      <div class="jcarousel">
+          <ul>
+              <li><a href="home"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-1.jpg" alt="" /></a></li>
+              <li><a href="home"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-2.jpg" alt="" /></a></li>
+              <li><a href="home"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-3.jpg" alt="" /></a></li>
+              <li><a href="home"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-4.jpg" alt="" /></a></li>
+              <li><a href="home"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-5.jpg" alt="" /></a></li>
+              <li><a href="home"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/img/demo/browser-pic-6.jpg" alt="" /></a></li>
+                
+          </ul>
+      </div>
+      <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+      <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+      <p class="jcarousel-pagination"></p>
+  </div>
+</div>
   </body>
 </html>
