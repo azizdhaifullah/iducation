@@ -13,10 +13,10 @@
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/css/demo.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jcarousel.responsive.css">
 
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jquery.js"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jquery.jcarousel.min.js"></script>
-
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jcarousel.responsive.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jquery.jcarousel.min.js"></script>
+    <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jcarousel.responsive.js"></script>
 
     <link rel="shortcut icon" href="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/img/favicon.ico">
 

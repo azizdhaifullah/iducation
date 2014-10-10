@@ -11,24 +11,42 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-01"  style="background-color:#27AE60;">
         <ul class="nav navbar-nav navbar-left">
-          <li><a href="#fakelink"><span class="fui-user"></span></a></li>
+          <li><a data-toggle="modal" data-target="#myModal"><span class="fui-user"></span></a></li>
           <li><a href="#fakelink"><span class="fui-home"></span></a></li>
           <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fui-document"></span></a></li>
           <li><a href="#fakelink"><div><img src="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/img/icons/svg/book.svg" alt="Book" style="width:25px;"></div></a></li>
-
-          <li><form class="navbar-form navbar-right" action="#" role="search">
-          <div class="form-group">
-            <div class="input-group">
-              <input class="fouuawrm-control" id="navbarInput-01" type="search" placeholder="Search" style="width:500px;background-color:#ECF0F1;" >
-              <span class="input-group-btn">
-                <button type="submit" class="btn" style="background-color:#ECF0F1;" ><span class="fui-search"></span></button>
-              </span>
+                   <!-- Button trigger modal -->
+          <li>
+          <form class="navbar-form navbar-right" action="#" role="search">
+            <div class="form-group">
+              <div class="input-group">
+                <input class="fouuawrm-control" id="navbarInput-01" type="search" placeholder="Search" style="width:500px;background-color:#ECF0F1;" >
+                <span class="input-group-btn">
+                  <button type="submit" class="btn" style="background-color:#ECF0F1;" ><span class="fui-search"></span></button>
+                </span>
+              </div>
+            </div>
+          </form>
+          </li>
+         </ul>  
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
             </div>
           </div>
-        </form></li>
-         </ul>
-
-         
       </div><!-- /.navbar-collapse -->
     </nav><!-- /navbar -->
   
@@ -71,5 +89,3 @@
       <p class="jcarousel-pagination"></p>
   </div>
 </div>
-  </body>
-</html>

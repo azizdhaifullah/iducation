@@ -9,7 +9,6 @@
           <?php
               $form = $this->beginWidget('CActiveForm', array(
                   'id' => 'add-user-form',
-                  'enableClientValidation'=>true,
                   'htmlOptions' => array('class'=>'form-horizontal',
                                           'role'=>'form'
                                       ),

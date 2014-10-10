@@ -133,4 +133,16 @@ class UserController extends Controller
 		$model->edit($_GET['i']);
 		$this->render('add_user',array('model'=>$model));
 	}
+
+	public function actionDelete(){
+		$i = $_GET['i'];
+		$criteria = new CDbCriteria;
+		$criteria->addSearchCondition('user_id',$i,TRUE,'=');
+		$data = TUser::model()->find($criteria);
+		if($data->delete()){
+			$this->redirect(Yii::app()->createUrl('admin/user'));
+		}else{
+			return false;
+		}
+	}
 }

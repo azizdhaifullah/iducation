@@ -26,9 +26,9 @@ class UserIdentity extends CUserIdentity
 		$uCod = substr($unix,0,4);
 		$this->password = $p2.$uCod.$p3.$uCod.$p4;
 		if($users===null)
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
+			Yii::app()->user->setFlash('Error','Username is wrong !');
 		elseif($users->password!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
+			Yii::app()->user->setFlash('Error','Username or Password is wrong !');
 		else
 			$this->errorCode=self::ERROR_NONE;
 		return !$this->errorCode;
