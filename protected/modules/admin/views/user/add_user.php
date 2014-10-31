@@ -103,10 +103,42 @@
         });
     });
 
-    /*$(document).ready(function () {
-       $("#UserForm_username").focusout(function(){
-        $('.cekUserAvailable').html(' <img src="<?=Yii::app()->theme->baseUrl?>/ico/ajax_loading.gif"/>');
-        // $('.cekUserAvailable').html('Mencari...');
+    $(document).ready(function () {
+      $("#UserForm_username").focusout(function(){
+       $.post('<?=  Yii::app()->createUrl('/admin/widget_accordion/ajax_get_accordion_data') ?>',{i:$('#WidgetAccordionForm_Title').val()},function(r){
+        var data = $.parseJSON(r);
+        //console.log(data);
+        var accordionid;
+        var icon;
+        var sort;
+        var isactive;
+        var isactiveSTR;
+        if (data.length > 0) {
+          accordionid = data[0].AccordionID;
+          icon = data[0].Icon;
+          sort = data[0].Sort;
+          isactive = data[0].IsActive;
+        } else {
+          accordionid  = '';
+          icon  = '';
+          sort  = '';
+          isactive  = '';
+        }
+        $('#WidgetAccordionForm_Sort').val(sort);
+        if (isactive == 1){
+          isactiveSTR = "True";
+        }else{
+          isactiveSTR = "False";
+        }
+        $('#WidgetAccordionForm_IsActive').val(isactiveSTR);
+        document.getElementById('icon-accordion').src = '<?= Yii::app()->baseUrl ?>' + '/files' + icon;
+        document.getElementById('link_accordion').href = '<?= Yii::app()->baseUrl ?>' + '/admin/widget_accordion/addContent/i/' + accordionid;
+        $("#link-edit").prop("href",'<?= Yii::app()->baseUrl ?>' + '/admin/widget_accordion/Edittitle/i/' + accordionid);
+        $("#Icon-image").prop("href",'<?= Yii::app()->baseUrl ?>' + '/files' + icon);
+        $("#icon-name").html(icon.substring(18));
+      });
+
+        $('.cekUserAvailable').html('<img src="<?=Yii::app()->theme->baseUrl?>/ico/ajax_loading.gif"/>');
        });
-    });*/
+    });
 </script>
