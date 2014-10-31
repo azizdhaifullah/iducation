@@ -103,10 +103,10 @@
         });
     });
 
-    $(document).ready(function () {
+    /*$(document).ready(function () {
        $("#UserForm_username").focusout(function(){
         $('.cekUserAvailable').html(' <img src="<?=Yii::app()->theme->baseUrl?>/ico/ajax_loading.gif"/>');
         // $('.cekUserAvailable').html('Mencari...');
        });
-    });
+    });*/
 </script>
