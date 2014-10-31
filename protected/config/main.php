@@ -32,6 +32,7 @@ return array(
 		),
 		'admin'=>array('layoutPath' => "themes/$theme/views/layouts"),
 		'sosmed'=>array('layoutPath' => "themes/$theme/views/layouts"),
+		'forum'=>array('layoutPath' => "themes/$theme/views/layouts"),
 		
 	),
 

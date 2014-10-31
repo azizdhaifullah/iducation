@@ -8345,3 +8345,57 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/iducation3/img/favicon.ico
 ---
+2014/10/31 02:39:34 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "baseUrl".' in C:\Xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Xampp\htdocs\iducation\themes\iducational\views\layouts\admin.php(26): CComponent->__call('baseUrl', Array)
+#1 C:\Xampp\htdocs\iducation\themes\iducational\views\layouts\admin.php(26): CWebApplication->baseUrl()
+#2 C:\Xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\\Xampp\\htdocs...')
+#3 C:\Xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Xampp\\htdocs...', Array, true)
+#4 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(784): CBaseController->renderFile('C:\\Xampp\\htdocs...', Array, true)
+#5 C:\Xampp\htdocs\iducation\protected\modules\admin\controllers\DashboardController.php(8): CController->render('index')
+#6 C:\Xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#7 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Dashboard')
+#12 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iducation/admin/Dashboard.html
+---
+2014/10/31 02:41:14 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "baseUrl".' in C:\Xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Xampp\htdocs\iducation\themes\iducational\views\layouts\admin.php(26): CComponent->__call('baseUrl', Array)
+#1 C:\Xampp\htdocs\iducation\themes\iducational\views\layouts\admin.php(26): CWebApplication->baseUrl()
+#2 C:\Xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\\Xampp\\htdocs...')
+#3 C:\Xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Xampp\\htdocs...', Array, true)
+#4 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(784): CBaseController->renderFile('C:\\Xampp\\htdocs...', Array, true)
+#5 C:\Xampp\htdocs\iducation\protected\modules\admin\controllers\DashboardController.php(8): CController->render('index')
+#6 C:\Xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#7 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\Xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Dashboard')
+#12 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iducation/admin/Dashboard.html
+---
+2014/10/31 02:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducationalimg/logo.png
+---
+2014/10/31 02:43:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducationalimg/logo.png
+---
