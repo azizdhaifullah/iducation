@@ -22,6 +22,15 @@
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/sb-admin.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/DT_bootstrap.css" rel="stylesheet">
+
+    <style type="text/css">
+        #wrapper {
+            margin-top: -10px !important;
+        }
+        .fa {
+            line-height: 2 !important ; 
+        }
+    </style>
 </head>
     <!-- Core Scripts - Include with every page -->
     <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery-1.10.2.js"></script>

@@ -84,14 +84,14 @@
             <?php echo $form->error($model,'gender'); ?>
         </div>
       </div>
-    <div class="well well-sm" style="margin-top:10px;">
-        <a class="btn btn-primary" href="<?= Yii::app()->createUrl('admin/user')?>"><i class="glyphicon glyphicon-arrow-left"></i> Back</a>
-        <?php if($model->saveType=='add'): ?>
-        <button type="submit"  class="btn btn-success"><i class="glyphicon glyphicon-ok"></i> Save</button>
-        <?php else: ?>
-        <button type="submit"  class="btn btn-primary"><i class="glyphicon glyphicon-ok"></i> Edit</button>
-        <?php endif; ?>
-    </div>
+      <div class="well well-sm" style="margin-top:10px;">
+          <a class="btn btn-primary" href="<?= Yii::app()->createUrl('admin/user')?>"><i class="glyphicon glyphicon-arrow-left"></i> Back</a>
+          <?php if($model->saveType=='add'): ?>
+          <button type="submit"  class="btn btn-success"><i class="glyphicon glyphicon-ok"></i> Save</button>
+          <?php else: ?>
+          <button type="submit"  class="btn btn-primary"><i class="glyphicon glyphicon-ok"></i> Edit</button>
+          <?php endif; ?>
+      </div>
     <?php $this->endWidget();?>
   </div>
 </div>

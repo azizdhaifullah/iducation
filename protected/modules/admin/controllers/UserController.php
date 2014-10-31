@@ -6,7 +6,8 @@ class UserController extends Controller
 	{
 		$this->layout = 'admin';
 		if (!Yii::app()->getRequest()->getIsAjaxRequest()) {
-			$this->render('index');
+			$model =  new UserForm;
+			$this->render('index',array('model'=>$model));
 			return;
 		} else {
 			$start = isset($_POST['iDisplayStart'])?$_POST['iDisplayStart']:0;
@@ -17,13 +18,15 @@ class UserController extends Controller
 			$orderBy = $columns[$_POST['iSortCol_0']].' '.$_POST['sSortDir_0'];
 			
 			//search
-			$filterBy = $filterString = null;
-			foreach($columns as $key=>$col){			
+			/*$filterBy = $filterString = null;
+			foreach($columns as $key=>$col){
+				//print_r($key);exit;			
 				if($_POST['sSearch_'.$key]!=''){
+					//print_r($_POST['sSearch_'.$key]);exit;
 					$filterBy = $col;
 					$filterString = $_POST['sSearch_'.$key];
 				}
-			}
+			}*/
 			$page = ($start/$length)+1;
 			
 			$model = new TUser();
@@ -44,12 +47,17 @@ class UserController extends Controller
 						)
 				);
 			$criteria->together = true;*/
-			if ($filterBy=='StatusSTR'){
-				$criteria->addSearchCondition($filterBy,$filterString.'%', false, 'AND');
-			}
-			else 
-			{
-				$criteria->addSearchCondition($filterBy,$filterString, true, 'AND');	
+			if ((isset($_POST['filterBy'])) && (isset($_POST['filterStr']))) {
+				$filterBy = $_POST['filterBy'];
+				$filterStr = $_POST['filterStr'];
+				if ($filterBy=='user_date'){
+					$criteria->addSearchCondition((string)$filterBy,$filterStr,true, 'AND');
+					//print_r($filterStr);exit;
+				}
+				else 
+				{
+					$criteria->addSearchCondition((string)$filterBy,(string)$filterStr, true, 'AND');	
+				}
 			}
 			$total = $model->count($criteria);			
 			$summary = array("iTotalRecords"=>$total,"iTotalDisplayRecords"=>$total);			
@@ -85,7 +93,7 @@ class UserController extends Controller
 		                      </div>
 		                      </div>
 		                    </div></p>';
-                $gender =@$row->gender==1 ? @$row->gender="Male" : @$row->gender="Female";
+                $gender = @$row->gender==1 ? @$row->gender="Male" : @$row->gender="Female";
 
 			    $record[] = array(
 			    		htmlentities(@$row->user_id),						

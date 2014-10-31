@@ -43,6 +43,7 @@ class UserForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
+			'user_id' => 'UserID',
 			'username' => 'Username',
 			'password' => 'Password',
 			'fullname' => 'Fullname',
@@ -64,7 +65,7 @@ class UserForm extends CFormModel
 		$uCod = substr($unix,0,4);
 		$this->password = $p2.$uCod.$p3.$uCod.$p4;
 		if($this->saveType=='add'){
-			$data = new TUser;gh
+			$data = new TUser;
 			$data->username = $this->username;
 			$data->password = $this->password;
 			$data->fullname = $this->fullname;
