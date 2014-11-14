@@ -89,7 +89,7 @@ hr {
 .navbar-blue .dropdown-menu li > a {padding-left:30px;}
 
 .navbar-blue li>a:hover, .navbar-blue li>a:focus, .navbar-blue .open, .navbar-blue .open>a, .navbar-blue .open>a:hover, .navbar-blue .open>a:focus {
-   background-color:#2A4888;
+   background-color:#2C3E50;
    color:#fff;
 }
 
@@ -97,7 +97,7 @@ hr {
 /*top nav-base in forum */
 .navbar-green {
     border-width:0;
-  background-color:#27AE60;
+  background-color:#34495E;
     color:#ffffff;
     font-family:arial,sans-serif;
     top:0;
@@ -137,12 +137,12 @@ hr {
 
 #sidebar, #sidebar a, #sidebar-footer a {
     color:#ffffff;
-    background-color:transparent;
+    background-color:#2C3E50;
 	text-shadow:0 0 2px #000000;
     padding-left:5px;
 }
 #sidebar .nav li>a:hover {
-    background-color:#393939;
+    background-color:#34495E;
 }
 
 .logo {

@@ -64,7 +64,7 @@
                       
           
             <!-- sidebar -->
-            <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+            <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar" >
 
               
                 <ul class="nav">
@@ -139,10 +139,10 @@
                     </ul>
 
 
-                   <ul class=" navbar-nav navbar-right">
-                      <li>
+                   <ul class="nav  navbar-right">
+                      
                         <a href="#"> <span class="navbar-brand logo">id</a>
-                      </li>
+                      
                    </ul>   
 <!-- dropdown masih error kalo gak konek internet -->
                       

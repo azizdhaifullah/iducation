@@ -8792,3 +8792,597 @@ Stack trace:
 REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
 HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
 ---
+2014/11/14 02:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:02:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:02:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:03:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:03:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:03:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:04:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:04:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:04:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:06:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:10:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:10:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:16:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:18:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:18:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/14 02:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.svg".' in C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\Xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.svg
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
