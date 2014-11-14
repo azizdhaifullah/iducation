@@ -2,7 +2,7 @@
 <div class="login">
         <div class="login-screen">
           <div class="login-icon">
-            <img src="<?= Yii::app()->baseUrl ?>/images/img/login/icon.png" alt="Welcome to Mail App" />
+            <img src="<?= Yii::app()->baseUrl ?>/images/img/logos.png" alt="Welcome to Mail App" />
             <h4>IDucational<small>The Other Way to Study</small></h4>
           </div>
           <div class="login-form">
