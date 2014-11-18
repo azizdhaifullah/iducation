@@ -23,6 +23,8 @@
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/DT_bootstrap.css" rel="stylesheet">
 
+    <link rel="shortcut icon" href="<?php echo Yii::app()->theme->baseUrl; ?>img/logo.png">
+
     <style type="text/css">
         #wrapper {
             margin-top: -10px !important;

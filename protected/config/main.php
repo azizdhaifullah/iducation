@@ -35,6 +35,7 @@ return array(
 			'defaultController' => 'login'
 		),
 		'sosmed'=>array('layoutPath' => "themes/$theme/views/layouts"),
+		'forum'=>array('layoutPath' => "themes/$theme/views/layouts"),
 		
 	),
 
