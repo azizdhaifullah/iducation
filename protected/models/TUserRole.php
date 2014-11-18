@@ -6,6 +6,7 @@
  * The followings are the available columns in table 'user_role':
  * @property integer $user_role_id
  * @property string $user_role_name
+ * @property string $user_role_description
  *
  * The followings are the available model relations:
  * @property UserAuth[] $userAuths
@@ -30,9 +31,10 @@ class TUserRole extends CActiveRecord
 		return array(
 			array('user_role_name', 'required'),
 			array('user_role_name', 'length', 'max'=>15),
+			array('user_role_description', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('user_role_id, user_role_name', 'safe', 'on'=>'search'),
+			array('user_role_id, user_role_name, user_role_description', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -56,6 +58,7 @@ class TUserRole extends CActiveRecord
 		return array(
 			'user_role_id' => 'User Role',
 			'user_role_name' => 'User Role Name',
+			'user_role_description' => 'User Role Description',
 		);
 	}
 
@@ -79,6 +82,7 @@ class TUserRole extends CActiveRecord
 
 		$criteria->compare('user_role_id',$this->user_role_id);
 		$criteria->compare('user_role_name',$this->user_role_name,true);
+		$criteria->compare('user_role_description',$this->user_role_description,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

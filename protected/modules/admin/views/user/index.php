@@ -64,8 +64,8 @@ $('#searchField').change(function(){
 						      '</select>';
 		$('#input').html(genderSearchField);
 	}else if($('select[id="searchField"] option:selected').val()=='user_date'){
-		dateSearchField ='<div class="form-group date" id="datetimepicker2" data-date-format="YYYY-MM-DD">'+
-			                '<input class="form-control" type="text" id="searchText" style="margin-right:-19px;" >' +
+		dateSearchField =	'<div class="form-group date" id="datetimepicker2" data-date-format="YYYY-MM-DD">'+
+			                '<input class="form-control" type="text" id="searchText" style="margin-right:-19px;" readonly>' +
 			                '<span class="input-addon"><span class="fa fa-calendar" style="margin-right:8px;"></span>' +
 			                '</span>'+
 			            '</div>';

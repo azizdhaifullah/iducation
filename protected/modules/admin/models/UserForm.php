@@ -57,6 +57,7 @@ class UserForm extends CFormModel
 		$d = strtotime($this->user_date);
 		$date = date("Y-m-d", $d);
 		$this->user_created_date = date("Y-m-d H:i:s"); 
+
 		$p = md5($this->password);
 		$p2 = substr($p,0,5);
 		$p3 = substr($p,5,-1);
@@ -64,6 +65,7 @@ class UserForm extends CFormModel
 		$unix = md5(substr($p,-4));
 		$uCod = substr($unix,0,4);
 		$this->password = $p2.$uCod.$p3.$uCod.$p4;
+		
 		if($this->saveType=='add'){
 			$data = new TUser;
 			$data->username = $this->username;
