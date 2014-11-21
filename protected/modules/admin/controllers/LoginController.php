@@ -2,8 +2,32 @@
 
 class LoginController extends Controller
 {
+	public function cekSession()
+	{
+		if(isset(Yii::app()->session['username'])){
+			//get User and Role
+			//echo Yii::app()->session['username'];exit;
+			$getUser = TUser::model()->find(array('condition'=>'Username=:username','params'=>array(':username'=>Yii::app()->session['username'])));
+			$model = new TUserAuth();
+			$criteria = new CDbCriteria;
+			$criteria->addCondition("user_id=".$getUser->user_id);
+    		$criteria->addCondition("(user_role_id=2 OR user_role_id=1)");
+			$cekUser = $model->find($criteria);
+
+			if(empty($cekUser)){
+				throw new CHttpException('when acces page',Yii::t('Errors','because this page just for admin'));
+				Yii::app()->end();
+			}
+		}
+	}
+
 	public function actionIndex()
 	{
+		$this->cekSession();
+		if(isset(Yii::app()->session['username'])){
+			$this->redirect(Yii::app()->createUrl('admin/dashboard'));
+		}
+
 		$this->layout = 'login';
 		$model = new LoginForm;
 		if (isset($_POST['LoginForm'])) {
@@ -14,6 +38,8 @@ class LoginController extends Controller
 		}
 		$this->render('index',array('model'=>$model));
 	}
+
+
 
 	// Uncomment the following methods and override them if needed
 	/*

@@ -29,7 +29,6 @@
                       <?php echo $form->error($model,'password'); ?>
                 </div>
                 <button type="submit"  class="btn btn-primary btn-lg btn-block">Login</button>
-                <a class="login-link" href="#">Lost your password?</a>  
               <?php $this->endWidget();?>
           
             <!--<div class="form-group">

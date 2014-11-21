@@ -47,7 +47,7 @@ return array(
 		),
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
-                    'urlSuffix'=>'.html',
+                    'urlSuffix'=>'.3gp',
                     'urlFormat'=>'path',
                     'showScriptName'=>false,
                     'rules'=>array(
@@ -55,7 +55,10 @@ return array(
                             '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                             '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                     ),
-                ),
+        ),
+        'session' => array (
+		    'autoStart' => true,
+		),
 
 		/*'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
@@ -89,6 +92,13 @@ return array(
 				*/
 			),
 		),
+		'authManager'=>array(
+            'class'=>'CDbAuthManager',
+            'connectionID'=>'db',
+            'itemTable'=>'authitem',        
+            'assignmentTable'=>'authassignment',
+            'itemChildTable'=>'authitemchild'
+        ),
 	),
 	// load theme
 	'theme'=>$theme,

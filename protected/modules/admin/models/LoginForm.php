@@ -72,6 +72,7 @@ class LoginForm extends CFormModel
 			$duration=$this->rememberMe ? 3600*24*30 : 0; // 30 days
 			Yii::app()->user->login($this->_identity,$duration);
 			
+			//check role
 			$getUser = TUser::model()->find(array('condition'=>'Username=:username','params'=>array(':username'=>$this->username)));
 			$model = new TUserAuth();
 			$criteria = new CDbCriteria;
@@ -80,6 +81,10 @@ class LoginForm extends CFormModel
 			$data = $model->find($criteria);
 			
 			if (!empty($data)) {
+				//set session
+				Yii::app()->session['user_id'] = $data->user_id;
+				Yii::app()->session['username'] = $this->username;
+
 				return true;
 			}else{
 				Yii::app()->user->setFlash('Error','Access not allowed !');

@@ -118,7 +118,7 @@ class UserForm extends CFormModel
 		$this->saveType = 'edit';
 	}
 
-	public function getGenderOption(){
+	public function genderOption(){
 		return array('1'=>'Male','2'=>'Female');
 	}
 }

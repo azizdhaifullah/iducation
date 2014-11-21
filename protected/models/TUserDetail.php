@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'user_detail':
  * @property integer $user_detail_id
  * @property integer $user_id
- * @property integer $mypicture
+ * @property string $mypicture
  * @property string $phone
  * @property string $address
  * @property string $religion
@@ -35,7 +35,8 @@ class TUserDetail extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('user_id, mypicture', 'required'),
-			array('user_id, mypicture', 'numerical', 'integerOnly'=>true),
+			array('user_id', 'numerical', 'integerOnly'=>true),
+			array('mypicture', 'length', 'max'=>225),
 			array('phone', 'length', 'max'=>18),
 			array('address, aboutme', 'length', 'max'=>255),
 			array('religion', 'length', 'max'=>11),
@@ -95,7 +96,7 @@ class TUserDetail extends CActiveRecord
 
 		$criteria->compare('user_detail_id',$this->user_detail_id);
 		$criteria->compare('user_id',$this->user_id);
-		$criteria->compare('mypicture',$this->mypicture);
+		$criteria->compare('mypicture',$this->mypicture,true);
 		$criteria->compare('phone',$this->phone,true);
 		$criteria->compare('address',$this->address,true);
 		$criteria->compare('religion',$this->religion,true);

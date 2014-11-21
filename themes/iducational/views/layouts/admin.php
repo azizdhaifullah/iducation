@@ -84,7 +84,7 @@
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-user fa-fw"></i> <?= Yii::app()->session['username'] ?> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
@@ -92,7 +92,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="<?= Yii::app()->createUrl('login/logout'); ?>"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -111,10 +111,25 @@
                             <a href="#"><i class="fa fa-user fa-fw"></i> User Management<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?= Yii::app()->createUrl("admin/User") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Table</a>
+                                    <a href="<?= Yii::app()->createUrl("admin/User") ?>" class="active"><i class="fa fa-hand-o-right fa-fw"></i>User Table</a>
                                 </li>
                                 <li>
                                     <a href="<?= Yii::app()->createUrl("admin/Userauth") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Authentication</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/Userdetail") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Detail</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserFriend") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Friend</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserInterest") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Interest</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserSchool") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User School</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserWork") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Work</a>
                                 </li>
                             </ul>
                         </li>

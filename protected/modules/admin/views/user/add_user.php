@@ -24,7 +24,8 @@
         'id' => 'add-user-form',
         'enableClientValidation'=>false,
         'htmlOptions' => array('class'=>'form-horizontal',
-                                'role'=>'form'
+                                'role'=>'form',
+                                'enctype' => 'multipart/form-data'
                             ),
     ));
     echo $form->hiddenField($model,'saveType');
@@ -87,7 +88,7 @@
      <div class="form-group">
         <?= $form->labelEx($model,'gender',array('class'=>'col-sm-2 control-label','for'=>'DataManagementForm_email')); ?>
         <div class="col-sm-10">
-            <?php echo $form->dropDownList($model,'gender',$model->genderOption,array('empty'=>'Select Gender','class'=>'form-control','placeholder'=>'Gender','required'=>'required'));?>
+            <?php echo $form->dropDownList($model,'gender',$model->genderOption(),array('empty'=>'Select Gender','class'=>'form-control','placeholder'=>'Gender','required'=>'required'));?>
             <?php echo $form->error($model,'gender'); ?>
         </div>
       </div>
