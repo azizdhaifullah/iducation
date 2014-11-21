@@ -11322,3 +11322,66 @@ REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regul
 HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
 >>>>>>> cdf5ed09b794fc52b681412ffee209d9b3729c82
 ---
+2014/11/21 10:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iducation/sosmed/beranda.html
+---
+2014/11/21 10:08:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/21 10:08:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "forum/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('forum/img/avata...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/forum/img/avatar3.png
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/21 10:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iducation/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/21 10:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/21 10:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
+---
+2014/11/21 10:08:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iducation/themes/iducational/forum/css/bootstrap.min.css
+---
