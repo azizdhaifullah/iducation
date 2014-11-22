@@ -11322,3 +11322,2131 @@ REQUEST_URI=/iducation/themes/iducational/forum/fonts/glyphicons-halflings-regul
 HTTP_REFERER=http://localhost/iducation/forum/Dashboard.html
 >>>>>>> cdf5ed09b794fc52b681412ffee209d9b3729c82
 ---
+2014/11/18 15:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/forum".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/forum')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/forum.html
+---
+2014/11/18 15:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/18 15:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/18 15:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/18 16:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/img/favic...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/admin/img/favicon.ico
+---
+2014/11/18 16:06:07 [error] [exception.CException] exception 'CException' with message 'Property "TUserAuth.username" is not defined.' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\models\LoginForm.php(86): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(11): LoginForm->login()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iducation3/admin/
+HTTP_REFERER=http://localhost:8088/iducation3/admin/
+---
+2014/11/18 16:14:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\DashboardController.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dashboard')
+#6 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/iducation3/admin/dashboard.html
+---
+2014/11/18 16:16:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\DashboardController.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dashboard')
+#6 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/iducation3/admin/dashboard.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/dashboard.html
+---
+2014/11/18 16:16:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\DashboardController.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dashboard')
+#6 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/iducation3/admin/dashboard.html
+HTTP_REFERER=http://localhost:8088/iducation3/admin/
+---
+2014/11/18 16:17:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\DashboardController.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dashboard')
+#6 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/iducation3/admin/dashboard.html
+---
+2014/11/18 16:36:37 [error] [php] strpos() expects parameter 1 to be string, object given (C:\xampp\htdocs\yii1.1.15\framework\web\CHttpRequest.php:801)
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\controllers\SiteController.php(33): SiteController->redirect()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/site
+in C:\xampp\htdocs\iducation3\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/19 00:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/11/19 00:20:16 [error] [php] Undefined variable: data (C:\xampp\htdocs\iducation3\protected\models\LoginForm.php:77)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): LoginController->runAction()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): LoginController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): LoginController->run()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/
+in C:\xampp\htdocs\iducation3\protected\models\LoginForm.php (77)
+in C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php (11)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/19 00:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/19 00:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/19 00:33:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/19 01:19:53 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\index.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): UserdetailController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): UserdetailController->renderPartial()
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php(8): UserdetailController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserdetailController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): UserdetailController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): UserdetailController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): UserdetailController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/admin/userdetail.html
+in C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\index.php (24)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php (8)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/19 01:26:55 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\index.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): UserdetailController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): UserdetailController->renderPartial()
+#2 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php(8): UserdetailController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserdetailController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): UserdetailController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): UserdetailController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): UserdetailController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/admin/userdetail.html
+in C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\index.php (24)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php (8)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/19 07:11:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/userdetail.html".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/userdetai...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/admin/userdetail.html
+HTTP_REFERER=http://localhost:8088/iducation3/gii/controller/index.html
+---
+2014/11/19 08:36:46 [error] [exception.CException] exception 'CException' with message 'UserForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(90): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(90): UserForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(139): CController->render('add_user', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionAddUser()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('addUser')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/addU...')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/admin/user/addUser.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/20 03:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/20 04:04:00 [error] [exception.CException] exception 'CException' with message 'UserForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(90): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(90): UserForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(139): CController->render('add_user', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionAddUser()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('addUser')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/addU...')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/admin/user/addUser.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/20 04:16:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_friend_id' in 'order clause'. The SQL statement executed was: SELECT * FROM `user_detail` `t` ORDER BY user_friend_id asc LIMIT 0.
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserFriendController.php (80)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/20 04:16:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_friend_id' in 'order clause'. The SQL statement executed was: SELECT * FROM `user_detail` `t` ORDER BY user_friend_id asc LIMIT 0' in C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii1.1.15\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserFriendController.php(80): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserFriendController->actionIndex()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/userFrien...')
+#10 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iducation3/admin/userFriend/index
+HTTP_REFERER=http://localhost:8088/iducation3/admin/UserFriend.3gp
+---
+2014/11/20 05:00:45 [error] [php] include(User_workForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1.1.15\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserWorkController.php(27): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserWorkController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): UserWorkController->runAction()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): UserWorkController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): UserWorkController->run()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/admin/UserWork.3gp
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserWorkController.php (27)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/20 05:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "k".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('k')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/k.3gp
+---
+2014/11/20 05:14:22 [error] [php] Undefined variable: getUser (C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): LoginController->runAction()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): LoginController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): LoginController->run()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/admin/login.3gp
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php (11)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php (24)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/20 05:15:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/img/favic...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/admin/img/favicon.ico
+---
+2014/11/20 05:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/11/20 05:33:20 [error] [php] Undefined variable: getUser (C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): LoginController->runAction()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): LoginController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): LoginController->run()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\iducation3\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation3/admin
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php (11)
+in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php (24)
+in C:\xampp\htdocs\iducation3\index.php (13)
+2014/11/20 05:35:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:17
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(25): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 05:35:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:17
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(25): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 05:37:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout.html".' in C:\xampp\htdocs\yii1.1.15\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(270): CController->missingAction('logout.html')
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('logout.html')
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login/log...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iducation3/admin/login/logout.html
+---
+2014/11/20 05:39:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:39:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:39:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:39:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userauth.3gp
+---
+2014/11/20 05:40:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin/login.3gp
+---
+2014/11/20 06:16:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:18:05 [error] [exception.CHttpException.You Can Access this !!!] exception 'CHttpException' with message 'unauthorized' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:19:15 [error] [exception.CHttpException.You can not access this page] exception 'CHttpException' with message 'Please back !' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:19:38 [error] [exception.CHttpException.!! You can not access this page] exception 'CHttpException' with message 'Please back !' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:20:27 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:22:11 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:22:23 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:22:53 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:23:02 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/20 06:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/20 06:23:15 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:24:50 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 06:31:25 [error] [exception.CHttpException.when acces page] exception 'CHttpException' with message 'because this page just for admin' in C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(26): LoginController->cekSession()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#7 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/iducation3/admin
+---
+2014/11/20 07:01:06 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "baseUrl".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(47): CComponent->__call('baseUrl', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\LoginController.php(47): CWebApplication->baseUrl()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionLogout()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('logout')
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login/log...')
+#8 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/iducation3/admin/login/logout.3gp
+---
+2014/11/20 14:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout".' in C:\xampp\htdocs\yii1.1.15\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(270): CController->missingAction('logout')
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('logout')
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login/log...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iducation3/admin/login/logout.3gp
+---
+2014/11/20 23:10:44 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:16 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:17 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:17 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:18 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:18 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:18 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:19 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:24 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:25 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:25 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:25 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:26 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:26 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:26 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:26 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:26 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:26 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:27 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:27 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\views\login\index.php(99): RegisterForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\controllers\LoginController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/
+---
+2014/11/20 23:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/11/20 23:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/20 23:29:11 [error] [exception.CException] exception 'CException' with message 'UserForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(90): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\views\user\add_user.php(90): UserForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserController.php(139): CController->render('add_user', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserController->actionAddUser()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('addUser')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/addU...')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/admin/user/addUser.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/User.3gp
+---
+2014/11/20 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/20 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/Flat/dist/css/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/Flat/dist/css/vendor/bootstrap.min.css
+---
+2014/11/21 02:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/11/21 03:50:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "amin".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('amin')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/amin
+---
+2014/11/21 03:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dashboard.html".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dashboard...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/admin/dashboard.html
+---
+2014/11/21 03:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "forum/Dashboard.html".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('forum/Dashboard...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/forum/Dashboard.html
+---
+2014/11/21 03:50:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 03:50:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 03:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "forum/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('forum/img/avata...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/forum/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/forum/Dashboard.3gp
+---
+2014/11/21 03:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/fontawesome-webfont.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/fontawesome-webfont.woff?v=4.0.3
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/font-awesome.min.css
+---
+2014/11/21 03:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/21 03:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/fontawesome-webfont.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/fontawesome-webfont.ttf?v=4.0.3
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/font-awesome.min.css
+---
+2014/11/21 03:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost:8088/iducation3/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/21 08:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 08:18:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 08:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 08:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 08:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 08:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 08:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 08:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/11/21 08:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/img/favicon.ico
+---
+2014/11/21 08:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\yii1.1.15\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('login/login')
+#3 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iducation3/login/login.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/login.3gp
+---
+2014/11/21 08:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost:8088/iducation3/sosmed/beranda.3gp
+---
+2014/11/21 10:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/21 10:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/21 10:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/21 10:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducationalimg/logo.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/themes/iducationalimg/logo.png
+---
+2014/11/21 10:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/user_detail/add".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user_deta...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/admin/user_detail/add.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/21 10:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/user_detail/add".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user_deta...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/admin/user_detail/add.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/21 10:54:51 [error] [exception.CException] exception 'CException' with message 'Property "User_detailForm.user_created_date" is not defined.' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\helpers\CHtml.php(2529): CComponent->__get('user_created_da...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(User_detailForm), 'user_created_da...')
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\helpers\CHtml.php(1609): CHtml::activeInputField('hidden', Object(User_detailForm), 'user_created_da...', Array)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\widgets\CActiveForm.php(756): CHtml::activeHiddenField(Object(User_detailForm), 'user_created_da...', Array)
+#4 C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\add_user_detail.php(31): CActiveForm->hiddenField(Object(User_detailForm), 'user_created_da...')
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user_detail', Array, true)
+#9 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php(137): CController->render('add_user_detail', Array)
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserdetailController->actionAdd()
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/userdetai...')
+#16 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iducation3/admin/userdetail/add.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/21 10:55:58 [error] [exception.CException] exception 'CException' with message 'Property "User_detailForm.Icon" is not defined.' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\add_user_detail.php(52): CComponent->__get('Icon')
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user_detail', Array, true)
+#5 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php(137): CController->render('add_user_detail', Array)
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserdetailController->actionAdd()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('add')
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/userdetai...')
+#12 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iducation3/admin/userdetail/add.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/21 10:56:13 [error] [exception.CException] exception 'CException' with message 'Property "User_detailForm.Icon" is not defined.' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\add_user_detail.php(52): CComponent->__get('Icon')
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user_detail', Array, true)
+#5 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php(137): CController->render('add_user_detail', Array)
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserdetailController->actionAdd()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('add')
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/userdetai...')
+#12 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iducation3/admin/userdetail/add.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/21 10:56:32 [error] [exception.CException] exception 'CException' with message 'User_detailForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\add_user_detail.php(85): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\add_user_detail.php(85): User_detailForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user_detail', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php(137): CController->render('add_user_detail', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserdetailController->actionAdd()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('add')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/userdetai...')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/admin/userdetail/add.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/21 10:57:45 [error] [exception.CException] exception 'CException' with message 'User_detailForm and its behaviors do not have a method or closure named "genderOption".' in C:\xampp\htdocs\yii1.1.15\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\add_user_detail.php(85): CComponent->__call('genderOption', Array)
+#1 C:\xampp\htdocs\iducation3\protected\modules\admin\views\userdetail\add_user_detail.php(85): User_detailForm->genderOption()
+#2 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): CController->renderPartial('add_user_detail', Array, true)
+#6 C:\xampp\htdocs\iducation3\protected\modules\admin\controllers\UserdetailController.php(137): CController->render('add_user_detail', Array)
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): UserdetailController->actionAdd()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): CController->run('add')
+#12 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/userdetai...')
+#13 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iducation3/admin/userdetail/add.3gp
+HTTP_REFERER=http://localhost:8088/iducation3/admin/Userdetail.3gp
+---
+2014/11/21 11:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Icon-user.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('images/Icon-use...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/images/Icon-user.png
+HTTP_REFERER=http://localhost:8088/iducation3/admin/userdetail/add.3gp
+---
+2014/11/21 11:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Icon-user.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('images/Icon-use...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/images/Icon-user.png
+HTTP_REFERER=http://localhost:8088/iducation3/admin/userdetail/add.3gp
+---
+2014/11/21 11:26:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Icon-user.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('images/Icon-use...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation3/images/Icon-user.png
+HTTP_REFERER=http://localhost:8088/iducation3/admin/userdetail/add.3gp
+---
